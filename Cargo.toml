@@ -12,5 +12,5 @@ edition = "2021"
 readme = "README.md"
 
 [dependencies]
-rinex = { git = "https://github.com/nav-solutions/rinex", rev = "7b1443f83d72e304c595ee8ef79dc870bd3fd65b" }
+rinex = { git = "https://github.com/nav-solutions/rinex", rev = "7b1443f83d72e304c595ee8ef79dc870bd3fd65b", features = ["flate2"] }
 clap = { version = "4.5", features = ["derive", "color"] }
