@@ -1,13 +1,13 @@
 CRX2RNX
 =======
 
-[![Rust](https://github.com/rtk-rs/crx2rnx/actions/workflows/rust.yml/badge.svg)](https://github.com/rtk-rs/crx2rnx/actions/workflows/rust.yml)
-[![Rust](https://github.com/rtk-rs/crx2rnx/actions/workflows/daily.yml/badge.svg)](https://github.com/rtk-rs/crx2rnx/actions/workflows/daily.yml)
+[![Rust](https://github.com/nav-solutions/crx2rnx/actions/workflows/rust.yml/badge.svg)](https://github.com/nav-solutions/crx2rnx/actions/workflows/rust.yml)
+[![Rust](https://github.com/nav-solutions/crx2rnx/actions/workflows/daily.yml/badge.svg)](https://github.com/nav-solutions/crx2rnx/actions/workflows/daily.yml)
 [![crates.io](https://img.shields.io/crates/v/crx2rnx.svg)](https://crates.io/crates/crx2rnx)
 [![discord server](https://img.shields.io/discord/1342922474110586910?logo=discord)](https://discord.gg/EqhEBXBmJh)
 
 [![MRSV](https://img.shields.io/badge/MSRV-1.89.0-orange?style=for-the-badge)](https://github.com/rust-lang/rust/releases/tag/1.89.0)
-[![License](https://img.shields.io/badge/license-MPL_2.0-orange?style=for-the-badge&logo=mozilla)](https://github.com/rtk-rs/qc-traits/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MPL_2.0-orange?style=for-the-badge&logo=mozilla)](https://github.com/nav-solutions/qc-traits/blob/main/LICENSE)
 
 `crx2rnx` is a small command line utility to decompress
 your CRINEX (Compact RINEX) files into readable RINEX. It aims at becoming
@@ -17,7 +17,7 @@ This tool is based on the [GeoRust/RINEX parser](https://github.com/georust/rine
 
 ## Download the tool
 
-You can download the latest version from [the release portal](https://github.com/rtk-rs/crx2rnx/releases)
+You can download the latest version from [the release portal](https://github.com/nav-solutions/crx2rnx/releases)
 
 ## Install from Cargo
 
@@ -32,7 +32,7 @@ cargo install crx2rnx
 Download the version you are interested in:
 
 ```bash
-git clone https://github.com/rtk-rs/crx2rnx
+git clone https://github.com/nav-solutions/crx2rnx
 ```
 
 And build it using cargo:
