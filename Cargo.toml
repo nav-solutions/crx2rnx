@@ -1,6 +1,6 @@
 [package]
 name = "crx2rnx"
-version = "2.7.0"
+version = "2.8.0"
 license = "MPL-2.0"
 authors = ["Guillaume W. Bres <guillaume.bressaix@gmail.com>"]
 description = "RINEX decompression command line utility"
@@ -12,5 +12,5 @@ edition = "2021"
 readme = "README.md"
 
 [dependencies]
-rinex = { version = "0.22", features = ["flate2"] }
+rinex = { git = "https://github.com/nav-solutions/rinex", rev = "7b1443f83d72e304c595ee8ef79dc870bd3fd65b" }
 clap = { version = "4.5", features = ["derive", "color"] }

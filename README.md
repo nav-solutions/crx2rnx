@@ -4,7 +4,9 @@ CRX2RNX
 [![Rust](https://github.com/rtk-rs/crx2rnx/actions/workflows/rust.yml/badge.svg)](https://github.com/rtk-rs/crx2rnx/actions/workflows/rust.yml)
 [![Rust](https://github.com/rtk-rs/crx2rnx/actions/workflows/daily.yml/badge.svg)](https://github.com/rtk-rs/crx2rnx/actions/workflows/daily.yml)
 [![crates.io](https://img.shields.io/crates/v/crx2rnx.svg)](https://crates.io/crates/crx2rnx)
+[![discord server](https://img.shields.io/discord/1342922474110586910?logo=discord)](https://discord.gg/EqhEBXBmJh)
 
+[![MRSV](https://img.shields.io/badge/MSRV-1.89.0-orange?style=for-the-badge)](https://github.com/rust-lang/rust/releases/tag/1.89.0)
 [![License](https://img.shields.io/badge/license-MPL_2.0-orange?style=for-the-badge&logo=mozilla)](https://github.com/rtk-rs/qc-traits/blob/main/LICENSE)
 
 `crx2rnx` is a small command line utility to decompress
@@ -103,7 +105,6 @@ crx2rnx ESBC00DNK_R_20201770000_01D_30S_MO.crx.gz
 Decompressed ESBC00DNK_R_20201770000_01D_30S_MO.rnx
 ```
 
-## Licensing
+## License
 
-This application is part of the [RTK-rs framework](https://github.com/rtk-rs) which
-is delivered under the [Mozilla V2 Public](https://www.mozilla.org/en-US/MPL/2.0) license.
+This application is released under the [Mozilla V2 Public](https://www.mozilla.org/en-US/MPL/2.0) license.  
