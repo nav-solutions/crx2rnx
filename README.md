@@ -13,7 +13,8 @@ CRX2RNX
 your CRINEX (Compact RINEX) files into readable RINEX. It aims at becoming
 a modern replacement of the historical tool.
 
-This tool is based on the [GeoRust/RINEX parser](https://github.com/georust/rinex).
+This tool is based our [RINEX parser](https://github.com/nav-solutions/rinex) which integrates
+an implementation of the CRINEX compression algorithm.
 
 ## Download the tool
 
